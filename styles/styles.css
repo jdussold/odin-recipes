@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+  font-family: 'Merriweather', serif;
+  background-color: #fdf6e3;
+  color: #5a4632;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  line-height: 1.8;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 40px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1 {
+  font-size: 2.8rem;
+  color: #3e2723;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 2rem;
+  color: #4e342e;
+  margin-top: 30px;
+  font-weight: bold;
+  border-bottom: 2px solid #d7ccc8;
+  padding-bottom: 5px;
+}
+
+p {
+  font-size: 1.3rem;
+  max-width: 800px;
+  margin: 0 auto 20px;
+  padding: 0 15px;
+  text-align: justify;
+}
+
+ul,
+ol {
+  padding-left: 25px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+li {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* Remove bullet points from recipe list */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #8d6e63;
+  font-weight: bold;
+  transition: 0.3s;
+  border-bottom: 2px dotted #8d6e63;
+}
+
+a:hover {
+  color: #5d4037;
+  border-bottom: 2px solid #5d4037;
+}
+
+/* Recipe List */
+ul li a {
+  display: block;
+  background: #faf3e0;
+  border: 1px solid #e0c9a6;
+  padding: 15px;
+  margin: 10px auto;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+ul li a:hover {
+  background: #e8d5b7;
+  transform: scale(1.05);
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Steps and Ingredients */
+.ingredients,
+.steps {
+  background: #fcf8e8;
+  padding: 25px;
+  margin: 25px auto;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  max-width: 850px;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  border-left: 5px solid #d7ccc8;
+}
+
+.ingredients strong,
+.steps strong {
+  font-size: 1.4rem;
+  color: #4e342e;
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  padding: 15px;
+  background: #5d4037;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  font-style: italic;
+  border-top: 3px solid #3e2723;
+}
